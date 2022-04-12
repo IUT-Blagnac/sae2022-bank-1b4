@@ -7,7 +7,7 @@ sae2022-bank-1b4 created by GitHub Classroom
 | Date    | Nom         |  Lien                             | Retour
 | 03/04   | Gantt V1    |                                                              | 
 |         | CdC V1      |                                   |   
-|         | Suivi Projet |                                   |             
+|         | Suivi Projet |                                   |  Je n'ai qu'un seul contributeur sous Github : Erwan. Attention seulement 3 issues dans la gestion du projet et qui ne correspondent que partiellement à la demande V1. Aucune ISSUE terminée dans le projet. Arborescence à revoir dans le reporsitory à organiser selon les versions. Il reste beaucoup de travail en gestion de projet !! EP         
 | 22/04  | CdC V2/V3 final|                                     |  
 |         | Gantt V2    |                               |     
 |         | Gantt V3 |         |     
