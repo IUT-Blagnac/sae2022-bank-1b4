@@ -8,7 +8,7 @@ sae2022-bank-1b4 created by GitHub Classroom
 | 03/04   | Gantt V1    |                  | Je n'ai pas un Gantt mais plutôt un planning  copié depuis le sujet. Rappel :  les tâches doivent être affectées et ordonnanées. Attention à l'échelle de temps et au format de livraison. Pour V1 prendre aussi en compte les tâches de développement. EP
 |         | CdC V1      |                                   |   Non livré !!
 |         | Suivi Projet |                                   |  Je n'ai qu'un seul contributeur sous Github : Erwan. Attention seulement 3 issues dans la gestion du projet et qui ne correspondent que partiellement à la demande V1. Aucune ISSUE terminée dans le projet. Arborescence à revoir dans le reporsitory à organiser selon les versions. Il reste beaucoup de travail en gestion de projet !! EP         
-| 22/04  | CdC V2/V3 final|https://github.com/IUT-Blagnac/sae2022-bank-1b4/blob/CDCU/dev.adoc|  Manque lien pour évaluation finale après rappel  note CDCU V3=0/20
+| 22/04  | CdC V2/V3 final|https://github.com/IUT-Blagnac/sae2022-bank-1b4/blob/main/CDCU/CDCU_V2_V3.adoc|  Manque lien pour évaluation finale après rappel  note CDCU V3=0/20
 |         | Gantt V2    |                               |     
 |         | Gantt V3 |         |     
 |         | Doc. Tec. V1 |        |    
