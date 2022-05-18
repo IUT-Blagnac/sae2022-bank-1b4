@@ -50,10 +50,15 @@ Pour cela cliquez tout simplement sur https://github.com/IUT-Blagnac/sae2022-ban
 
 Si vous possédez qu'une seule version Java, double cliquez sur le fichier precedemment installé
 
+image::Images/telBankApp.png[]
+
 
 ==== Plusieurs versions
 
+Si vous possédez plusiseurs version Java, ouvrez un terminal puis dirigez vous vers le dossier où se trouve le .jar
 
+image::Images/cheminJar.png
+et entrez la commande #java -jar BankAppV0.jar#
 
 
 
