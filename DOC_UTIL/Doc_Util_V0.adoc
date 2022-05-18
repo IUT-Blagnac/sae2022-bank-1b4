@@ -1,1 +1,69 @@
 
+:toc: left                                                       
+:toclevels: 4 
+:toc-title: Sommaire
+:nofooter:
+
+= Documentation utilisateur V0
+
+MOINY Yanis <yanis.moiny@gmail.com>; MONTERDE Tonatiu <erwanmonterde@gmail.com>; MIQUEU-DENJEAN Vincent <vincent.miqueu@gmail.com>; WISSON Matthias <matthias.wisson@gmail.com> 
+v1, 19/04/2022
+          
+:sectnums:                                                          
+
+:description: Example AsciiDoc document                             
+:keywords: AsciiDoc                                                 
+ 
+
+== [[bookmark-a]] Présentation générale, rôle de l' application
+
+L'application DailyBank permet de gérer des comptes clients afin de remplacer plusieurs outils obsolètes.
+
+Les besoins de la banque et des clients ayant évolué des fonctionnalités doivent être développés, une première version de l'application doit donc être améliorée afin de répondre aux besoins.
+
+À ce jour l'application permet à un guichetier de : 
+
+*** Modifier informations client (adresse, téléphone, …)
+*** Créer un nouveau client
+*** Consulter un compte
+*** Débiter un compte (BD)
+
+Et permet à un chef d'agence de : 
+
+*** Rendre inactif un client
+
+
+La banque DailyBank souhaite développer une application JAVA-Oracle de gestion des comptes clients pour remplacer plusieurs outils obsolètes. Ce développement s’inscrit dans le cadre de la restructuration de ses services bancaires et l’application sera déployée dans les 100 agences que compte son réseau. Vous travaillerez à partir d’une application existante « Daily Bank » qu’il faudra adapter aux nouveaux besoins de la banque.
+
+== Installation 
+
+=== Avant d'installer 
+
+Afin d'exécuter l'application DailyBankApp assurez-vous d'avoir installé Java 1.8. Dans le cas où vous auriez d'autres versions de Java installées, il faut définir votre version principale en Java 1.8.
+
+=== Télécharger/lancer le .jar
+
+Il ne vous reste plus qu'à télécharger le fichier .jar afin de le lancer : :: 
+Pour cela cliquez tout simplement sur https://github.com/IUT-Blagnac/sae2022-bank-1b4/tree/main/CODE_SOURCE/src[ce lien] et téléchargez le fichier 
+
+==== Une version 
+
+Si vous possédez qu'une seule version Java, double cliquez sur le fichier precedemment installé
+
+
+==== Plusieurs versions
+
+
+
+
+
+
+==  Utilisation
+
+
+==  Fonctionnement
+
+
+
+=== Résultats produits avec jeux d'essai commentés
+
