@@ -33,8 +33,6 @@ Et permet à un chef d'agence de :
 *** Rendre inactif un client
 
 
-La banque DailyBank souhaite développer une application JAVA-Oracle de gestion des comptes clients pour remplacer plusieurs outils obsolètes. Ce développement s’inscrit dans le cadre de la restructuration de ses services bancaires et l’application sera déployée dans les 100 agences que compte son réseau. Vous travaillerez à partir d’une application existante « Daily Bank » qu’il faudra adapter aux nouveaux besoins de la banque.
-
 == Installation 
 
 === Avant d'installer 
@@ -57,13 +55,30 @@ image::Images/telBankApp.png[]
 
 Si vous possédez plusiseurs version Java, ouvrez un terminal puis dirigez vous vers le dossier où se trouve le .jar
 
-image::Images/cheminJar.png
+image::Images/cheminJar.png[chemin, 750,650]
+
 et entrez la commande #java -jar BankAppV0.jar#
 
 
-
-
 ==  Utilisation
+
+Maintenant que vous avez réussi à télécharger l'application il vous reste à apprendre comment l'utiliser pour cela le tutoriel se présentera en plusieurs étapes.
+
+=== Connexion
+
+La première étape est de se connecter à l'application bien evidemment ::
+
+* Pour cela cliquez sur le bouton connexion centré en bas de l'application
+
+image::Images/coAppli.png[]
+
+* Ou bien cliquez sur le bouton utilisateur pour faire apparaître le bouton connexion que vous devrez ensuite cliquer
+
+image::Images/coAppli2.png[]
+
+image::Images/coAppli3.png[]
+
+* Il ne vous reste plus qu'à rentrer vos identifiants (login et mot de passe)
 
 
 ==  Fonctionnement
