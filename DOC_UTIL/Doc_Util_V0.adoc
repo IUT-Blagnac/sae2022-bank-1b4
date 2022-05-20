@@ -55,7 +55,7 @@ image::Images/telBankApp.png[]
 
 Si vous possédez plusiseurs version Java, ouvrez un terminal puis dirigez vous vers le dossier où se trouve le .jar
 
-image::Images/cheminJar.png[chemin, 750,650]
+image::Images/cheminJar.png[]
 
 et entrez la commande #java -jar BankAppV0.jar#
 
@@ -80,9 +80,31 @@ image::Images/coAppli3.png[]
 
 * Il ne vous reste plus qu'à rentrer vos identifiants (login et mot de passe)
 
+image::Images/coIdMdp.png[]
 
-==  Fonctionnement
+=== Utilisation/Fonctionnement
 
+Après la connexion vous pouvez accéder à plusieurs fonctionnalités en tant que guichetier : ::
+
+* Tout d'abord rendez-vous vers le menu des fonctionnalités en cliquant sur le bouton Gestion puis Clients
+
+image::Images/gestClients1.png[]
+
+image::Images/gestClients2.png[]
+
+==== Recherche client
+
+* Afin de rechercher un client vous pouvez cliquer sur le bouton Rechercher après avoir entrer (ou non) des critères de recherches dans les zones de texte dédiés à cela
+
+image::Images/rechClient.png[]
+
+=== Modifier info client
+
+Après avoir recherché un client vous pouvez le selectionner en cliquant dessus, cela vous débloquera un bouton modifier client, cliquez dessus.
+
+image::Images/cliqueRechClient.png[]
+
+image::Images/cliqueModifClient.png[]
 
 
 === Résultats produits avec jeux d'essai commentés
