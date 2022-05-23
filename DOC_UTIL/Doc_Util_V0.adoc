@@ -9,7 +9,7 @@
 MOINY Yanis <yanis.moiny@gmail.com>; MONTERDE Tonatiu <erwanmonterde@gmail.com>; MIQUEU-DENJEAN Vincent <vincent.miqueu@gmail.com>; WISSON Matthias <matthias.wisson@gmail.com> 
 v1, 19/04/2022
           
-:sectnums:                                                          
+:sectnums:                                                        
 
 :description: Example AsciiDoc document                             
 :keywords: AsciiDoc                                                 
@@ -68,11 +68,11 @@ Maintenant que vous avez réussi à télécharger l'application il vous reste à
 
 La première étape est de se connecter à l'application bien evidemment ::
 
-* Pour cela cliquez sur le bouton connexion centré en bas de l'application
+* Pour cela cliquez sur le bouton #Connexion# centré en bas de l'application
 
 image::Images/coAppli.png[]
 
-* Ou bien cliquez sur le bouton utilisateur pour faire apparaître le bouton connexion que vous devrez ensuite cliquer
+* Ou bien cliquez sur le bouton #Utilisateur# pour faire apparaître le bouton #Connexion# que vous devrez ensuite cliquer
 
 image::Images/coAppli2.png[]
 
@@ -86,7 +86,7 @@ image::Images/coIdMdp.png[]
 
 Après la connexion vous pouvez accéder à plusieurs fonctionnalités en tant que guichetier : ::
 
-* Tout d'abord rendez-vous vers le menu des fonctionnalités en cliquant sur le bouton Gestion puis Clients
+* Tout d'abord rendez-vous vers le menu des fonctionnalités en cliquant sur le bouton #Gestion# puis #Clients#
 
 image::Images/gestClients1.png[]
 
@@ -94,18 +94,77 @@ image::Images/gestClients2.png[]
 
 ==== Recherche client
 
-* Afin de rechercher un client vous pouvez cliquer sur le bouton Rechercher après avoir entrer (ou non) des critères de recherches dans les zones de texte dédiés à cela
+[[bookmark-c]]
+
+* Afin de rechercher un client vous pouvez cliquer sur le bouton #Rechercher# après avoir entrer (ou non) des critères de recherches dans les zones de texte dédiés à cela
 
 image::Images/rechClient.png[]
 
-=== Modifier info client
+==== Modifier info client
 
-Après avoir recherché un client vous pouvez le selectionner en cliquant dessus, cela vous débloquera un bouton modifier client, cliquez dessus.
+Après avoir recherché un client vous pouvez le selectionner en cliquant dessus, cela vous débloquera un bouton #Modifier Client#, cliquez dessus.
 
 image::Images/cliqueRechClient.png[]
 
 image::Images/cliqueModifClient.png[]
 
+Une fois que vous êtes dans la page dédié à la modification des informations d'un client vous pouvez modifier parmi le nom, prénom, l'adresse, le téléphone, l'adresse mail et si le client est actif ou non. ::
+Quand vous avez fini de modifier les informations du client cliquez sur le bouton #Modifier#.
 
-=== Résultats produits avec jeux d'essai commentés
+image::Images/finModifClient.png[]
+
+==== Créer un nouveau client
+
+Toujours dans la fenêtre de recherche de cliens après avoir rechercher un client ::
+
+link:#bookmark-c[Explications]
+
+Pour créer un nouveau cliquez sur le bouton #Nouveau client#
+
+image::Images/creaClient.png[]
+
+==== Consulter un compte 
+
+[[bookmark-b]]
+Toujours dans la fenêtre de recherche de cliens après avoir rechercher un client ::
+
+link:#bookmark-c[Explications]
+
+Pour consulter un compte cliquez sur le bouton #Comptes Client#
+
+image::Images/compteClientBut.png[]
+
+Sélectionnez le compte que vous souhaitez consulter et cliquez sur le bouton #Voir opérations#
+
+image::Images/selectCompte.png[]
+
+image::Images/voirOpCompte.png[]
+
+Cela vous ouvrera une fenêtre avec les informations du compte.
+
+image::Images/infoCompteOp.png[]
+
+==== Débiter un compte
+
+Dans la fenêtre de gestion des opérations :: 
+link:#bookmark-b[Explications]
+
+Pour débiter un compte cliquez sur le bouton #Enregistrer Débit# 
+
+image::Images/debEnregistre.png[]
+
+Vous pouvez choisir entre 2 types d'opérations (Retrait Espèces, Retrait Carte Bleue)
+
+image::Images/retraitMethode.png[]
+
+Ainsi que préciser le montant que souhaitez débiter.
+
+image::Images/montantDebit.png[]
+
+Enfin, pour valider votre débit, cliquez sur le bouton #Effectuer Débit#
+
+image::Images/finDebit.png[]
+
+
+
 
