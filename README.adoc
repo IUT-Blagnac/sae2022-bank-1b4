@@ -11,13 +11,13 @@ sae2022-bank-1b4 created by GitHub Classroom
 | 22/04  | CdC V2/V3 final|https://github.com/IUT-Blagnac/sae2022-bank-1b4/blob/main/CDCU/CDCU_V2_V3.adoc|  Manque lien pour évaluation finale après rappel  note CDCU V3=0/20
 |         | Gantt V2    |https://github.com/IUT-Blagnac/sae2022-bank-1b4/blob/main/GANTT%20V2.pdf|     
 |         | Gantt V3 |         |     
-|         | Doc. Tec. V0 |        |    
+|         | Doc. Tec. V0 |https://github.com/IUT-Blagnac/sae2022-bank-1b4/blob/main/DOC_TECH/Doc_Tech_V0.adoc|    
 |         | Doc User V0    |https://github.com/IUT-Blagnac/sae2022-bank-1b4/blob/main/DOC_UTIL/Doc_Util_V0.adoc|
 |         | Recette V1  |                      | 
 |         | Suivi projet|   | 
 | 22/05   | Gantt V2  à jour    |       | 
 |         | Doc. Util. V1 |  https://github.com/IUT-Blagnac/sae2022-bank-1b4/blob/main/DOC_UTIL/Doc_Util_V1.adoc |         
-|         | Doc. Tec. V1 |                |     
+|         | Doc. Tec. V1 |https://github.com/IUT-Blagnac/sae2022-bank-1b4/blob/main/DOC_TECH/Doc_Tech_V1.adoc|     
 |         | Code V1     |                     | 
 |         | Recette V1 |                      | 
 |         | Gantt V3 à jour   |                      | 
