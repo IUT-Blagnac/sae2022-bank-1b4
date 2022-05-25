@@ -5,14 +5,14 @@ sae2022-bank-1b4 created by GitHub Classroom
 [cols="1,2,2,5",options=header]
 |===
 | Date    | Nom         |  Lien                             | Retour
-| 03/04   | Gantt V1    |                  | Je n'ai pas un Gantt mais plutôt un planning  copié depuis le sujet. Rappel :  les tâches doivent être affectées et ordonnanées. Attention à l'échelle de temps et au format de livraison. Pour V1 prendre aussi en compte les tâches de développement. EP
+| 03/04   | Gantt V1    |https://github.com/IUT-Blagnac/sae2022-bank-1b4/blob/main/GANTT%20-%20SAE%20Gestion%20de%20Projet.pdf| Je n'ai pas un Gantt mais plutôt un planning  copié depuis le sujet. Rappel :  les tâches doivent être affectées et ordonnanées. Attention à l'échelle de temps et au format de livraison. Pour V1 prendre aussi en compte les tâches de développement. EP
 |         | CdC V1      |https://github.com/IUT-Blagnac/sae2022-bank-1b4/blob/main/CDCU/CDCU_V1.adoc|   Non livré !!
 |         | Suivi Projet |                                   |  Je n'ai qu'un seul contributeur sous Github : Erwan. Attention seulement 3 issues dans la gestion du projet et qui ne correspondent que partiellement à la demande V1. Aucune ISSUE terminée dans le projet. Arborescence à revoir dans le reporsitory à organiser selon les versions. Il reste beaucoup de travail en gestion de projet !! EP         
 | 22/04  | CdC V2/V3 final|https://github.com/IUT-Blagnac/sae2022-bank-1b4/blob/main/CDCU/CDCU_V2_V3.adoc|  Manque lien pour évaluation finale après rappel  note CDCU V3=0/20
-|         | Gantt V2    |                               |     
+|         | Gantt V2    |https://github.com/IUT-Blagnac/sae2022-bank-1b4/blob/main/GANTT%20V2.pdf|     
 |         | Gantt V3 |         |     
 |         | Doc. Tec. V0 |        |    
-|         | Doc User V0    |  https://github.com/IUT-Blagnac/sae2022-bank-1b4/blob/main/DOC_UTIL/Doc_Util_V0.adoc  |
+|         | Doc User V0    |https://github.com/IUT-Blagnac/sae2022-bank-1b4/blob/main/DOC_UTIL/Doc_Util_V0.adoc|
 |         | Recette V1  |                      | 
 |         | Suivi projet|   | 
 | 22/05   | Gantt V2  à jour    |       | 
