@@ -195,11 +195,21 @@ image::Images/ajouterCompte.png[]
 
 ==== Clôturer un compte
 
-``Clôturer un compte en cours de développement...``
+Dans la fenêtre de gestion de compte ::
+
+link:#bookmark-d[Explications]
+
+Afin de clôturer un compte, cliquez sur un compte et cliquez sur le bouton #Supprimer compte#
+
+image::Images/cliqueCompte.png[]
+
+image::Images/supprCompte.png[]
 
 ==== Gérer (faire le « CRUD ») les employés (guichetier et chef d’agence)
 
 ``Gérer (faire le « CRUD ») les employés (guichetier et chef d’agence) en cours de développement en cours de développement...``
+
+
 
 
 
