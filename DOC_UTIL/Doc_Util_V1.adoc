@@ -199,7 +199,7 @@ Dans la fenêtre de gestion de compte ::
 
 link:#bookmark-d[Explications]
 
-Afin de clôturer un compte, cliquez sur un compte et cliquez sur le bouton #Supprimer compte#
+Afin de clturer un compte, cliquez sur un compte et cliquez sur le bouton #Supprimer compte#
 
 image::Images/cliqueCompte.png[]
 
