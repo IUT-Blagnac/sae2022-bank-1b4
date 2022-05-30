@@ -8,3 +8,27 @@ Puis quand on clique sur Connexion, LoginDialog se lance :
 application.control.LoginDialog va alors ouvrir une nouvelle fenêtre (logindialog.fxml) qui va permettre à l'utilisateur de pouvoir rentrer un identifiant et un mot de passe pour se connecter en allant vérifier les informations saisies par l'utilisateur dans la base de données.
 
 application.view.LoginDialogController va contrôler les actions à effectuer en fonctions des boutons et va retourner les potentielles erreurs d'identifiants incorrects.
+
+
+= Dossier d’Analyse et de Conception
+:toc:
+:toc-title: Sommaire
+
+Version de l'application : 1 +
+Client : BankUniv +
+Projet : Daily Bank + 
+
+<<<
+
+
+== 1. Architecture
+
+=== a) Architecture Générale
+
+Architecture de la V0 :
+image:DC/dc-initialv0.svg[]
+Architecture de la V1 :
+image:DC/dc-initialv1.svg[]
+Architecture de la V2 :
+image:DC/dc-initialv2.svg[]
+
