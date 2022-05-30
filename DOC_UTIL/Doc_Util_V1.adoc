@@ -128,6 +128,7 @@ image::Images/creaClient.png[]
 ==== Consulter un compte 
 
 [[bookmark-b]]
+[[bookmark-d]]
 Toujours dans la fenêtre de recherche de cliens après avoir rechercher un client ::
 
 link:#bookmark-c[Explications]
@@ -171,7 +172,22 @@ image::Images/finDebit.png[]
 
 ==== Créer un compte 
 
-``Créer un compte en cours de développement...``
+Dans la fenêtre de gestion de compte ::
+
+link:#bookmark-d[Explications]
+
+Cliquez sur le bouton #Nouveau compte# cela vous ouvrira une nouvelle fenêtre...
+
+image::Images/nouveauCompte.png[]
+
+Vous pouvez entrer un découvert autorisé et un solde (premier dépôt). 
+`*_Attention ce premier depôt doit être supérieur à 50 euros._*`
+
+image::Images/gestionSolde.png[]
+
+Enfin cliquez sur le bouton #Ajouter# afin de créer le compte.
+
+image::Images/ajouterCompte.png[]
 
 ==== Effectuer un virement de compte à compte
 
