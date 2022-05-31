@@ -24,10 +24,17 @@ sae2022-bank-1b4 created by GitHub Classroom
 |         | Recette V1  |https://github.com/IUT-Blagnac/sae2022-bank-1b4/blob/main/CAHIER_RECETTE/Cahier_Recette_V1.adoc| 
 |         | Suivi projet|   | 
 | 22/05   | Gantt V2  à jour    |https://github.com/IUT-Blagnac/sae2022-bank-1b4/blob/main/GANTT%20V2.pdf| 
-|         | Doc. Util. V1 |  https://github.com/IUT-Blagnac/sae2022-bank-1b4/blob/main/DOC_UTIL/Doc_Util_V1.adoc |         
-|         | Doc. Tec. V1 |https://github.com/IUT-Blagnac/sae2022-bank-1b4/blob/main/DOC_TECH/Doc_Tech_V1.adoc|     
+|         | Doc. Util. V1 |  https://github.com/IUT-Blagnac/sae2022-bank-1b4/blob/main/DOC_UTIL/Doc_Util_V1.adoc |   Pas mal ...      
+|         | Doc. Tec. V1 |https://github.com/IUT-Blagnac/sae2022-bank-1b4/blob/main/DOC_TECH/Doc_Tech_V1.adoc| A faire mais par rapport à la doc tec V0,   il manque la page de garde, la présentation de l'appli, la répartition de qui fait quoi (voir doc sur moodle documentation technique postée par André Péninou) - Toutes les figures doivent avoir un numéro et un titre et un commentaire - Dans la partie ressources externes,  Il faut indiquer , l’utilisation de java fx … Il faut donc s’assurer que les postes de travail des employés possèdent une JRE 1.8 pour pouvoir faire fonctionner le .jar sans encombre. Voir comment lancer dans le bon environnement → IHM Comment installer l’application pour pouvoir la maintenir : accès à la base  … Archi de l'appli :il faut un scéma avec la la BD, les postes utilisateurs et l'appli , les diagrammes des cas d'utilisation ne sont pas une architecture !!! - Mieux décrire les packages avec les classes impliquées - Description de l'appli, bien vérifier que vous avez mis tous les pts mentionnés : Pour chaque fonctionnalité : en les expliquant
+      Dans chaque partie : qui est le développeur responsable
+      ◦  Partie de use case réalisé - scénarios éventuels
+      ◦ Partie du diagramme de classes données nécessaires : en lecture, en mise à jour
+      ◦ Copies écrans principales de la fonctionnalité (ou renvoi vers doc utilisateur) + maquettes états imprimés (si concerné)
+      ◦ Classes impliquées dans chaque package
+      ◦  Extraits de code significatifs commentés si nécessaires pour des points particuliers et importants avec spéc. ddées
+      ◦ Eléments essentiels à connaître, spécificités, … nécessaires à la mise en œuvre du développement. Pensez à générer et mettre la javadoc. Si vous avez des difficultés, choisissez juste une fonctionnalité et allez au bout !
 |         | Code V1     |https://github.com/IUT-Blagnac/sae2022-bank-1b4/tree/main/CODE_SOURCE/App_V1/src| 
-|         | Recette V1 |https://github.com/IUT-Blagnac/sae2022-bank-1b4/blob/main/CAHIER_RECETTE/Cahier_Recette_V1.adoc| 
+|         | Recette V1 |https://github.com/IUT-Blagnac/sae2022-bank-1b4/blob/main/CAHIER_RECETTE/Cahier_Recette_V1.adoc| Appuyez vous sur le cahier de rectte exmple posté sur discord par Esther Pendaries. C'est pas mal ce que vous avez fait
 |         | Gantt V3 à jour   |                      | 
 |         | `jar` projet |    | 
 | 05/06   | Gantt V3 à Jour  |    |  
