@@ -113,15 +113,19 @@ Quand vous avez fini de modifier les informations du client cliquez sur le bouto
 
 image::Images/finModifClient.png[]
 
-==== Créer un nouveau client
+===== Créer un nouveau client
 
-Toujours dans la fenêtre de recherche de cliens après avoir rechercher un client ::
+Toujours dans la fenêtre de recherche de cliens après avoir un client ::
 
 link:#bookmark-c[Explications]
 
 Pour créer un nouveau cliquez sur le bouton #Nouveau client#
 
 image::Images/creaClient.png[]
+
+Puis aller vous faire foutre
+
+image::Images/creaInfosClient.png[]
 
 ==== Consulter un compte 
 

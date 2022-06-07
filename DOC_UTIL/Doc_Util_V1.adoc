@@ -12,13 +12,15 @@ v1, 25/04/2022
 :sectnums:                                                        
 
 :description: Example AsciiDoc document                             
-:keywords: AsciiDoc                                                 
+:keywords: AsciiDoc                                      
+:icons: font
+
+++++
+<link rel="stylesheet"  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.1.0/css/font-awesome.min.css">
+++++           
  
 
 == [[bookmark-a]] Présentation générale, rôle de l' application
-
-[.text-center]
-WARNING: test attention
 
 L'application DailyBank permet de gérer des comptes clients afin de remplacer plusieurs outils obsolètes.
 
@@ -110,7 +112,7 @@ image::Images/rechClient.png[]
 
 ===== Créer un nouveau client
 
-Toujours dans la fenêtre de recherche de cliens après avoir rechercher un client ::
+Toujours dans la fenêtre de recherche de cliens après avoir un client ::
 
 link:#bookmark-c[Explications]
 
@@ -118,9 +120,15 @@ Pour créer un nouveau cliquez sur le bouton #Nouveau client#
 
 image::Images/creaClient.png[]
 
+Puis entrez les informations du compte (Nom, Prénom, Adresse, Téléphone, E-mail) et cliquez sur ajouter.
+
+image::Images/creaInfosClient.png[]
+
+WARNING: You will need to signup with a cloud foundry PaaS provider before running any of these samples.
+
 ===== Modifier info client
 
-Après avoir recherché un client vous pouvez le selectionner en cliquant dessus, cela vous débloquera un bouton #Modifier Client#, cliquez dessus.
+Après avoir recherché un client (Voir link:#bookmark-c[Explications] si besoin) vous pouvez le selectionner en cliquant dessus, cela vous débloquera un bouton #Modifier Client#, cliquez dessus.
 
 image::Images/cliqueRechClient.png[]
 
@@ -130,6 +138,8 @@ Une fois que vous êtes dans la page dédié à la modification des informations
 Quand vous avez fini de modifier les informations du client cliquez sur le bouton #Modifier#.
 
 image::Images/guichModifClient.png[]
+
+
 
 ==== Compte
 
