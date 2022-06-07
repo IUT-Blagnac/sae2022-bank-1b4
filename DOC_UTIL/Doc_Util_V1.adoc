@@ -4,6 +4,7 @@
 :nofooter:
 
 = Documentation utilisateur V1
+Application : DailyBank
 
 MOINY Yanis <yanis.moiny@gmail.com>; MONTERDE Tonatiu <erwanmonterde@gmail.com>; MIQUEU-DENJEAN Vincent <vincent.miqueu@gmail.com>; WISSON Matthias <matthias.wisson@gmail.com> 
 v1, 25/04/2022
@@ -15,6 +16,8 @@ v1, 25/04/2022
  
 
 == [[bookmark-a]] Présentation générale, rôle de l' application
+
+WARNING: test attention
 
 L'application DailyBank permet de gérer des comptes clients afin de remplacer plusieurs outils obsolètes.
 
@@ -62,7 +65,7 @@ image::Images/cheminJar.png[]
 et entrez la commande #java -jar BankAppV0.jar#
 
 
-==  Utilisation
+==  Fonctionnalités
 
 Maintenant que vous avez réussi à télécharger l'application il vous reste à apprendre comment l'utiliser pour cela le tutoriel se présentera en plusieurs étapes.
 
@@ -84,9 +87,11 @@ image::Images/coAppli3.png[]
 
 image::Images/coIdMdp.png[]
 
-=== Utilisation/Fonctionnement
+=== Fonctionnalités de l'application
 
-Après la connexion vous pouvez accéder à plusieurs fonctionnalités en tant que guichetier : ::
+==== Clients
+
+Après la connexion vous pouvez accéder à plusieurs fonctionnalités : ::
 
 * Tout d'abord rendez-vous vers le menu des fonctionnalités en cliquant sur le bouton #Gestion# puis #Clients#
 
@@ -94,7 +99,7 @@ image::Images/gestClients1.png[]
 
 image::Images/gestClients2.png[]
 
-==== Recherche client
+===== Recherche client
 
 [[bookmark-c]]
 
@@ -102,20 +107,7 @@ image::Images/gestClients2.png[]
 
 image::Images/rechClient.png[]
 
-==== Modifier info client
-
-Après avoir recherché un client vous pouvez le selectionner en cliquant dessus, cela vous débloquera un bouton #Modifier Client#, cliquez dessus.
-
-image::Images/cliqueRechClient.png[]
-
-image::Images/cliqueModifClient.png[]
-
-Une fois que vous êtes dans la page dédié à la modification des informations d'un client vous pouvez modifier parmi le nom, prénom, l'adresse, le téléphone, l'adresse mail et si le client est actif ou non. ::
-Quand vous avez fini de modifier les informations du client cliquez sur le bouton #Modifier#.
-
-image::Images/finModifClient.png[]
-
-==== Créer un nouveau client
+===== Créer un nouveau client
 
 Toujours dans la fenêtre de recherche de cliens après avoir rechercher un client ::
 
@@ -125,7 +117,41 @@ Pour créer un nouveau cliquez sur le bouton #Nouveau client#
 
 image::Images/creaClient.png[]
 
-==== Consulter un compte 
+===== Modifier info client
+
+Après avoir recherché un client vous pouvez le selectionner en cliquant dessus, cela vous débloquera un bouton #Modifier Client#, cliquez dessus.
+
+image::Images/cliqueRechClient.png[]
+
+image::Images/cliqueModifClient.png[]
+
+Une fois que vous êtes dans la page dédié à la modification des informations d'un client vous pouvez modifier parmi le nom, prénom, l'adresse, le téléphone, l'adresse mail ::
+Quand vous avez fini de modifier les informations du client cliquez sur le bouton #Modifier#.
+
+image::Images/guichModifClient.png[]
+
+==== Compte
+
+===== Créer un compte 
+
+Dans la fenêtre de gestion de compte ::
+
+link:#bookmark-d[Explications]
+
+Cliquez sur le bouton #Nouveau compte# cela vous ouvrira une nouvelle fenêtre...
+
+image::Images/nouveauCompte.png[]
+
+Vous pouvez entrer un découvert autorisé et un solde (premier dépôt). +
+`*_Attention ce premier depôt doit être supérieur à 50 euros._*`
+
+image::Images/gestionSolde.png[]
+
+Enfin cliquez sur le bouton #Ajouter# afin de créer le compte.
+
+image::Images/ajouterCompte.png[]
+
+===== Consulter un compte 
 
 [[bookmark-b]]
 [[bookmark-d]]
@@ -147,7 +173,22 @@ Cela vous ouvrera une fenêtre avec les informations du compte.
 
 image::Images/infoCompteOp.png[]
 
-==== Créditer/Débiter un compte
+===== Clôturer un compte
+
+Dans la fenêtre de gestion de compte ::
+
+link:#bookmark-d[Explications]
+
+Afin de clturer un compte, cliquez sur un compte et cliquez sur le bouton #Supprimer compte#
+
+image::Images/cliqueCompte.png[]
+
+image::Images/supprCompte.png[]
+
+==== Opérations
+
+===== Créditer/Débiter un compte
+
 
 Dans la fenêtre de gestion des opérations :: 
 link:#bookmark-b[Explications]
@@ -170,44 +211,28 @@ image::Images/finDebit.png[]
 
 ``Créditer un compte en cours de développement...``
 
-==== Créer un compte 
-
-Dans la fenêtre de gestion de compte ::
-
-link:#bookmark-d[Explications]
-
-Cliquez sur le bouton #Nouveau compte# cela vous ouvrira une nouvelle fenêtre...
-
-image::Images/nouveauCompte.png[]
-
-Vous pouvez entrer un découvert autorisé et un solde (premier dépôt). 
-`*_Attention ce premier depôt doit être supérieur à 50 euros._*`
-
-image::Images/gestionSolde.png[]
-
-Enfin cliquez sur le bouton #Ajouter# afin de créer le compte.
-
-image::Images/ajouterCompte.png[]
-
-==== Effectuer un virement de compte à compte
+===== Effectuer un virement de compte à compte
 
 ``Effectuer un virement de compte à compte en cours de développement...``
 
-==== Clôturer un compte
+=== Fonctionnalités supplémentaires (Chef d'agence)
 
-Dans la fenêtre de gestion de compte ::
+==== Client
 
-link:#bookmark-d[Explications]
+===== Rendre inactif un client
 
-Afin de clturer un compte, cliquez sur un compte et cliquez sur le bouton #Supprimer compte#
+Une fois que vous êtes dans la page dédié à la modification des informations d'un client vous pouvez modifier parmi le nom, prénom, l'adresse, le téléphone, l'adresse mail et si le client est actif ou non. ::
 
-image::Images/cliqueCompte.png[]
+image::Images/finModifClient.png[]
 
-image::Images/supprCompte.png[]
+==== Employés
 
-==== Gérer (faire le « CRUD ») les employés (guichetier et chef d’agence)
+===== Gérer (faire le « CRUD ») les employés (guichetier et chef d’agence)
 
 ``Gérer (faire le « CRUD ») les employés (guichetier et chef d’agence) en cours de développement en cours de développement...``
+
+
+
 
 
 
