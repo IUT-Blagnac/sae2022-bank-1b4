@@ -12,13 +12,7 @@ v1, 25/04/2022
 :sectnums:                                                        
 
 :description: Example AsciiDoc document                             
-:keywords: AsciiDoc                                      
-:icons: font
-
-++++
-<link rel="stylesheet"  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.1.0/css/font-awesome.min.css">
-++++           
- 
+:keywords: AsciiDoc                          
 
 == [[bookmark-a]] Présentation générale, rôle de l' application
 
@@ -90,6 +84,10 @@ image::Images/coAppli3.png[]
 
 image::Images/coIdMdp.png[]
 
+WARNING: Si l’une de ces deux informations est fausse ou bien les deux, un message d’erreur sera affiché à l’écran
+
+image::Images/errConnexion.png[]
+
 === Fonctionnalités de l'application
 
 ==== Clients
@@ -124,9 +122,11 @@ Puis entrez les informations du compte (Nom, Prénom, Adresse, Téléphone, E-ma
 
 image::Images/creaInfosClient.png[]
 
-WARNING: You will need to signup with a cloud foundry PaaS provider before running any of these samples.
+WARNING: Tous les champs doivent être remplis pour que l'ajout du compte soit effectué.
 
 ===== Modifier info client
+
+[[bookmark-e]]
 
 Après avoir recherché un client (Voir link:#bookmark-c[Explications] si besoin) vous pouvez le selectionner en cliquant dessus, cela vous débloquera un bouton #Modifier Client#, cliquez dessus.
 
@@ -139,7 +139,7 @@ Quand vous avez fini de modifier les informations du client cliquez sur le bouto
 
 image::Images/guichModifClient.png[]
 
-
+WARNING: Tous les champs doivent être remplis pour que la modification du compte soit effectué.
 
 ==== Compte
 
@@ -154,13 +154,14 @@ Cliquez sur le bouton #Nouveau compte# cela vous ouvrira une nouvelle fenêtre..
 image::Images/nouveauCompte.png[]
 
 Vous pouvez entrer un découvert autorisé et un solde (premier dépôt). +
-`*_Attention ce premier depôt doit être supérieur à 50 euros._*`
 
 image::Images/gestionSolde.png[]
 
 Enfin cliquez sur le bouton #Ajouter# afin de créer le compte.
 
 image::Images/ajouterCompte.png[]
+
+WARNING: Attention ce premier depôt (solde) doit être supérieur à 50 euros
 
 ===== Consulter un compte 
 
@@ -190,7 +191,7 @@ Dans la fenêtre de gestion de compte ::
 
 link:#bookmark-d[Explications]
 
-Afin de clturer un compte, cliquez sur un compte et cliquez sur le bouton #Supprimer compte#
+Afin de clôturer un compte, cliquez sur un compte et cliquez sur le bouton #Supprimer compte#
 
 image::Images/cliqueCompte.png[]
 
@@ -220,6 +221,8 @@ Enfin, pour valider votre débit, cliquez sur le bouton #Effectuer Débit#
 
 image::Images/finDebit.png[]
 
+WARNING: Le solde actuel ne doit pas être inférieur à la valeur du découvert
+
 ``Créditer un compte en cours de développement...``
 
 ===== Effectuer un virement de compte à compte
@@ -232,7 +235,7 @@ image::Images/finDebit.png[]
 
 ===== Rendre inactif un client
 
-Une fois que vous êtes dans la page dédié à la modification des informations d'un client vous pouvez modifier parmi le nom, prénom, l'adresse, le téléphone, l'adresse mail et si le client est actif ou non. ::
+Une fois que vous êtes dans la page dédié à la modification des informations d'un client (Voir link:#bookmark-e[Explications] si besoin) vous pouvez modifier parmi le nom, prénom, l'adresse, le téléphone, l'adresse mail et si le client est actif ou non. 
 
 image::Images/finModifClient.png[]
 
@@ -240,7 +243,10 @@ image::Images/finModifClient.png[]
 
 ===== Gérer (faire le « CRUD ») les employés (guichetier et chef d’agence)
 
-``Gérer (faire le « CRUD ») les employés (guichetier et chef d’agence) en cours de développement en cours de développement...``
+``Gérer (faire le « CRUD ») les employés (guichetier et chef d’agence) en cours de développement``
+
+
+
 
 
 
