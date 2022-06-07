@@ -17,6 +17,7 @@ v1, 25/04/2022
 
 == [[bookmark-a]] Présentation générale, rôle de l' application
 
+[.text-center]
 WARNING: test attention
 
 L'application DailyBank permet de gérer des comptes clients afin de remplacer plusieurs outils obsolètes.
