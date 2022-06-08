@@ -26,11 +26,11 @@ Projet : Daily Bank +
 === a) Architecture Générale
 
 Architecture de la V0 :
-image:dc-initialv0.svg[]
+image:Images/dc-initialv0.svg[]
 Architecture de la V1 :
-image:dc-initialv1.svg[]
+image:Images/dc-initialv1.svg[]
 Architecture de la V2 :
-image:dc-initialv2.svg[]
+image:Images/dc-initialv2.svg[]
 
 === b) Ressources externes
 
