@@ -197,6 +197,8 @@ image::Images/cliqueCompte.png[]
 
 image::Images/supprCompte.png[]
 
+WARNING: Si le solde est différent de 0 le compte ne sera pas supprimé.
+
 ===== Générer un relevé mensuel d’un compte en PDF
 
 ``Générer un relevé mensuel d’un compte en PDF en cours de développement``
@@ -254,8 +256,6 @@ image::Images/finModifClient.png[]
 ``Gérer (faire le « CRUD ») les employés (guichetier et chef d’agence) en cours de développement``
 
 ==== Compte 
-
-
 
 ==== Opérations
 

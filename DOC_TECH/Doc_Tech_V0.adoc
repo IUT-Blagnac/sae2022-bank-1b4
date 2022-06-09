@@ -10,7 +10,8 @@ application.control.LoginDialog va alors ouvrir une nouvelle fenêtre (logindial
 application.view.LoginDialogController va contrôler les actions à effectuer en fonctions des boutons et va retourner les potentielles erreurs d'identifiants incorrects.
 
 
-= Dossier d’Analyse et de Conception
+== Dossier d’Analyse et de Conception
+
 :toc:
 :toc-title: Sommaire
 
