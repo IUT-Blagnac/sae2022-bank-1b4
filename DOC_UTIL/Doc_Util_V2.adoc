@@ -263,10 +263,10 @@ image::Images/finModifClient.png[]
 
 ``Effectuer un Débit exceptionnel en cours de développement``
 
-===== Simuler un emprunt
+===== Simuler un emprunt (Seulement les spécifications)
 
 ``Simuler un emprunt en cours de développement``
 
-===== Simuler une assurance d’emprunt
+===== Simuler une assurance d’emprunt (Seulement les spécifications)
 
 ``Simuler une assurance d’emprunt en cours de développement``
