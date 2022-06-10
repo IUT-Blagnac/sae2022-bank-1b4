@@ -183,7 +183,9 @@ A part :
 
 == Fonctionnalités
 
-=== Créer un compte (Moiny Yanis)
+=== Compte
+
+==== Créer un compte (Moiny Yanis)
 
 Use case :
 
@@ -266,3 +268,13 @@ image::../DOC_UTIL/Images/finSupprCompte.png[]
 
 La suppression dans la base de données est effectué en utilisant la classe ORM `AccessComptesCourant`. +
 `AccesCompteCourant` va modifier "estCloture" du compte sélectionné pour mettre "O" (signifiant oui).
+
+=== Employé
+
+==== Gérer (faire le « CRUD ») les employés (Miqueu Vincent)
+
+=== Opérations 
+
+==== Créditer/débiter un compte (Miqueu Vincent)
+
+==== Effectuer un virement de compte à compte (Monterde Tonatiu)

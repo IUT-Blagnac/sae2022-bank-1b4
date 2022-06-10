@@ -7,7 +7,7 @@
 Application : DailyBank
 
 MOINY Yanis <yanis.moiny@gmail.com>; MONTERDE Tonatiu <erwanmonterde@gmail.com>; MIQUEU-DENJEAN Vincent <vincent.miqueu@gmail.com>; WISSON Matthias <matthias.wisson@gmail.com> 
-v1, 25/04/2022
+v2, 22/05/2022
           
 :sectnums:                                                        
 
@@ -147,7 +147,7 @@ WARNING: Tous les champs doivent être remplis pour que la modification du compt
 
 Dans la fenêtre de gestion de compte ::
 
-link:#bookmark-d[Explications]
+link:#bookmark-b[Explications]
 
 Cliquez sur le bouton #Nouveau compte# cela vous ouvrira une nouvelle fenêtre...
 
@@ -166,7 +166,6 @@ WARNING: Attention ce premier depôt (solde) doit être supérieur à 50 euros
 ===== Consulter un compte 
 
 [[bookmark-b]]
-[[bookmark-d]]
 Toujours dans la fenêtre de recherche de cliens après avoir rechercher un client ::
 
 link:#bookmark-c[Explications]
@@ -189,7 +188,7 @@ image::Images/infoCompteOp.png[]
 
 Dans la fenêtre de gestion de compte ::
 
-link:#bookmark-d[Explications]
+link:#bookmark-b[Explications]
 
 Afin de clôturer un compte, cliquez sur un compte et cliquez sur le bouton #Supprimer compte#
 
@@ -266,6 +265,16 @@ image::Images/finModifClient.png[]
 ===== Simuler un emprunt (Seulement les spécifications)
 
 ``Simuler un emprunt en cours de développement``
+
+Dans la fenêtre de gestions des opérations (link:#bookmark-b[Explications]) ::
+
+Cliquez sur le bouton #Simulation d'emprunt# afin d'ouvrir la fenêtre de simulation d'emprunt
+
+image::../DOC_TECH/Images/gestOp.png[]
+
+Afin de simuler un emprunt 
+
+image::../DOC_TECH/Images/simEmprunt.png[]
 
 ===== Simuler une assurance d’emprunt (Seulement les spécifications)
 
