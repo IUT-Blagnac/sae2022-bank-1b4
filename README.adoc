@@ -1,5 +1,83 @@
-# sae2022-bank-1b4
-sae2022-bank-1b4 created by GitHub Classroom
+= S2.01 - Développement d'une application et S2.05 - Gestion d'un projet
+
+Equipe : Monterde Tonatiu - Moiny Yanis - Miqueu Denjean Vincent
+
+== Version v0 :
+*Dans la version existante de notre application, un guichetier peut :*
+
+* Modifier informations client (adresse, téléphone, …)
+
+* Créer un nouveau client
+
+* Consulter un compte
+
+* Débiter un compte (BD)
+
+*Un chef d’agence peut faire tout ce que fait un guichetier mais aussi :*
+
+* Rendre inactif un client
+
+== Version v1 :
+*Un guichetier peut :*
+
+* Effectuer un crédit 
+* Effectuer un virement 
+* Clôturer un compte 
+* Créer un compte 
+
+*Un chef d’agence peut faire tout ce que fait un guichetier mais aussi :*
+
+* Créer un employé
+* Voir la liste des employés
+* Modifier les informations d'un employé
+* Supprimer un employé
+
+== Version v2 :
+*Un guichetier peut :*
+
+* Générer un relevé mensuel d’un compte en PDF
+* Gérer les prélèvements automatiques (créer, voir, modifier, supprimer)
+
+*Un chef d’agence peut faire tout ce que fait un guichetier mais aussi :*
+
+* Effectuer un Débit exceptionnel
+* Simuler un emprunt (avec ou sans assurance)
+
+== Version v3 :
+*Un chef d’agence peut :*
+
+* Exécuter les prélèvements automatiques
+* Générer les relevés mensuels de tous les comptes en PDF
+
+.Répartition des tâches et leur statut
+[options="header,footer"]
+|=======================
+|version|user     |use case   |fonctionnalité              |   Tonatiu | Yanis  |   Vincent 
+|0    |Chef d'Agence    |Client        |Rendre inactif un Client | |F |
+|1    |Chef d'Agence    |CRUD employé  |C|F | | 
+|1    |Chef d'Agence    |CRUD employé  |R| | F | 
+|1    |Chef d'Agence    |CRUD employé  |U| |  | F
+|1    |Chef d'Agence    |CRUD employé  |D|F |  | 
+|1    |Guichetier     | Compte | Créer| |F | 
+|1    |Guichetier     | Compte | Créditer/Débiter|| F|
+|1    |Guichetier     | Compte | Effectuer un virement|| F| 
+|1    |Guichetier     | Compte | Clôturer||F | 
+|2    |Chef d'Agence     | Compte | Débit exceptionnel|F| | 
+|2    |Chef d'Agence     | Emprunt | Simuler emprunt|F| | 
+|2    |Chef d'Agence     | Emprunt | Simuler assurance|F| | 
+|2    |Guichetier     | Compte | Relevé PDF|F| | 
+|2    |Guichetier     | CRUD Prélèvement | C|| | F
+|2    |Guichetier     | CRUD Prélèvement | R||F | 
+|2    |Guichetier     | CRUD Prélèvement | U|F| | 
+|2    |Guichetier     | CRUD Prélèvement | D|| | F
+|3    |Batch     | Prélèvements |Exécuter les prélèvements automatiques || |D 
+|3    |Batch     | Relevés mensuels | Générer les relevés mensuels de tous les comptes |D| | 
+
+|=======================
+
+F: Fonctionnel |
+D: en Développement
+
 == Livrables
 
 [cols="1,2,2,5",options=header]
@@ -50,3 +128,4 @@ sae2022-bank-1b4 created by GitHub Classroom
 |         | Recette V3  |   |
 |         | `jar` projet |     |
 |===
+
