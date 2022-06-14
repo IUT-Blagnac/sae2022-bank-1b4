@@ -208,7 +208,7 @@ Classes utilisées ::
 ** `ComptesCourant`
 
 * model.orm :
-** `AccessOperation`
+** `AccessCompteCourant`
 
 Accessibilité : Guichetier et Chef d'agence +
 
